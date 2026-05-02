@@ -1,27 +1,34 @@
 # IoT Dashboard (FastAPI)
 
-A real-time IoT monitoring system built using FastAPI.
+A real-time IoT monitoring system built using FastAPI, featuring live sensor data simulation and a dynamic dashboard.
 
-## Features
-- Live temperature & humidity monitoring
-- Real-time graph dashboard
-- REST API backend
+---
+
+## 🎥 Demo Video
+[Watch Demo](https://youtu.be/O9UEuwHublw)
+
+---
+
+## 📊 Dashboard Preview
+![Dashboard](image.png)
+
+---
+
+## 🚀 Features
+- Real-time temperature monitoring
 - Simulated IoT sensor data
+- REST API using FastAPI
+- Live updating graph dashboard
+- Device management system
 
-## Tech Stack
+---
+
+## 🛠 Tech Stack
 - Python (FastAPI)
-- HTML, JavaScript (Chart.js)
+- Uvicorn
+- HTML, JavaScript
+- Chart.js
 
-## How to Run
+---
 
-### Start Backend
-uvicorn main:app --reload
-
-### Run Simulator
-python simulator.py
-
-### Open Dashboard
-Open dashboard.html in browser
-
-## Demo
-Real-time sensor data visualized using graphs.
+## 📁 Project Structure
